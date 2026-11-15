@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Favour Omewu, student and web developer at Miva Open University.">
+<title>Projects | Favour Omewu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html">Favour Omewu</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="page-head"><h1>Projects</h1><p class="lead">Three things I've made, from a full online shop to a streaming homepage.</p></section>
+<section class="grid">
+  <article class="project">
+    <figure class="shot "><img src="images/aura.jpg" alt="Screenshot of the Aura clothing store" loading="lazy" onerror="this.remove()"></figure>
+    <h2>Aura</h2>
+    <p>A full stack clothing store with product pages, a cart and online payments. I built it with React, Node.js and PostgreSQL to learn how a real shop fits together.</p>
+    <p class="links"><a href="https://example.com/aura" target="_blank" rel="noopener">Live demo</a> <a href="https://github.com/your-username/aura" target="_blank" rel="noopener">Code</a></p>
+  </article>
+  <article class="project">
+    <figure class="shot "><img src="images/nexora.jpg" alt="Screenshot of the Nexora marketplace" loading="lazy" onerror="this.remove()"></figure>
+    <h2>Nexora</h2>
+    <p>A tech and digital marketplace made with plain HTML and CSS across ten pages. It taught me to keep one shared stylesheet tidy as a site grows.</p>
+    <p class="links"><a href="https://example.com/nexora" target="_blank" rel="noopener">Live demo</a> <a href="https://github.com/your-username/nexora" target="_blank" rel="noopener">Code</a></p>
+  </article>
+  <article class="project">
+    <figure class="shot "><img src="images/reelbox.jpg" alt="Screenshot of the Reelbox streaming site" loading="lazy" onerror="this.remove()"></figure>
+    <h2>Reelbox</h2>
+    <p>A streaming site inspired by the apps I use every night, with a landing page, sign up, log in and a browsable homepage.</p>
+    <p class="links"><a href="https://example.com/reelbox" target="_blank" rel="noopener">Live demo</a> <a href="https://github.com/your-username/reelbox" target="_blank" rel="noopener">Code</a></p>
+  </article>
+</section>
+<section class="band">
+  <h2>A quick look</h2>
+  <video controls preload="none" poster="images/aura.jpg" width="640">
+    <source src="media/demo.mp4" type="video/mp4">
+    Your browser does not support video playback.
+  </video>
+  <p class="note">Add a short screen recording as media/demo.mp4.</p>
+</section>
+</main>
+<footer class="site-footer">
+  <p>Built by hand by Favour Omewu in Enugu, Nigeria.</p>
+  <p>&copy; <span id="year">2026</span> Favour Omewu. Student at MIVA Open University.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

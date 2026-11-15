@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Favour Omewu, student and web developer at Miva Open University.">
+<title>Planner | Favour Omewu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html">Favour Omewu</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html" aria-current="page">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="page-head"><h1>Academic planner</h1><p class="lead">Write down what's due, tick it off when it's done.</p></section>
+<section class="planner">
+  <form id="taskForm" novalidate>
+    <label for="taskInput">What needs doing?</label>
+    <div class="row">
+      <input type="text" id="taskInput" placeholder="Finish the web development assignment" autocomplete="off">
+      <button class="btn" type="submit">Add task</button>
+    </div>
+    <p class="error" id="taskError" role="alert"></p>
+  </form>
+  <p class="count" id="taskCount" aria-live="polite"></p>
+  <ul id="taskList" class="tasks"></ul>
+  <p class="empty" id="emptyMsg">Nothing here yet. Add your first task above.</p>
+</section>
+</main>
+<footer class="site-footer">
+  <p>Built by hand by Favour Omewu in Enugu, Nigeria.</p>
+  <p>&copy; <span id="year">2026</span> Favour Omewu. Student at MIVA Open University.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

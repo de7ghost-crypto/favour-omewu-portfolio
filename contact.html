@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Favour Omewu, student and web developer at Miva Open University.">
+<title>Contact | Favour Omewu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html">Favour Omewu</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="page-head"><h1>Say hello</h1><p class="lead">Have a project, a question or just a nice thing to say? Send me a message.</p></section>
+<section class="split">
+  <form id="contactForm" novalidate>
+    <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name"><span class="error" id="nameError"></span></div>
+    <div class="field"><label for="email">Email address</label><input type="email" id="email" name="email" autocomplete="email"><span class="error" id="emailError"></span></div>
+    <div class="field"><label for="phone">Phone number</label><input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel"><span class="error" id="phoneError"></span></div>
+    <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><span class="error" id="messageError"></span></div>
+    <button class="btn" type="submit">Send message</button>
+    <p class="success" id="formSuccess" role="status"></p>
+  </form>
+  <aside>
+    <h2>Other ways to reach me</h2>
+    <ul>
+      <li>Based in Abakpa, Enugu, Nigeria</li>
+      <li>Usually reply within a day</li>
+      <li><a href="https://github.com/your-username" target="_blank" rel="noopener">My GitHub</a></li>
+    </ul>
+  </aside>
+</section>
+</main>
+<footer class="site-footer">
+  <p>Built by hand by Favour Omewu in Enugu, Nigeria.</p>
+  <p>&copy; <span id="year">2026</span> Favour Omewu. Student at MIVA Open University.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
